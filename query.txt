@@ -1,6 +1,6 @@
-SCAN id AS id_filter,
-timestamp AS timestamp_UTC,
-te AS circle,
+SCAN id AS id,
+timestamp AS timestamp,
+te AS te,
 os1 AS os1,
 os2 AS os2,
 os3 AS os3,
@@ -25,4 +25,4 @@ s18 AS sensor18,
 s19 AS sensor19,
 s20 AS sensor20,
 s21 AS sensor21
-FROM A0206810R
+FROM Table2_A0206810R
